@@ -194,7 +194,7 @@ typedef struct _KISO_CONTEXT
 	SHORT ErrorCount;
 	SHORT NumberOfPackets;
 	UINT UrbHdrStatus;
-	PKISO_PACKET IsoPackets;
+	KISO_PACKET IsoPackets[0];
 
 } KISO_CONTEXT;
 
